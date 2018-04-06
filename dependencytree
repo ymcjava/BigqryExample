@@ -1,0 +1,40 @@
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ BigqryExample ---
+[INFO] BigqryExample:BigqryExample:jar:0.0.1-SNAPSHOT
+[INFO] +- com.google.cloud:google-cloud-bigquery:jar:1.22.0:compile
+[INFO] |  +- com.google.cloud:google-cloud-core:jar:1.22.0:compile
+[INFO] |  |  +- com.google.guava:guava:jar:20.0:compile
+[INFO] |  |  +- joda-time:joda-time:jar:2.9.2:compile
+[INFO] |  |  +- com.google.http-client:google-http-client:jar:1.23.0:compile
+[INFO] |  |  |  \- org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+[INFO] |  |  |     +- org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[INFO] |  |  |     +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] |  |  |     \- commons-codec:commons-codec:jar:1.3:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+[INFO] |  |  +- com.google.api:api-common:jar:1.5.0:compile
+[INFO] |  |  +- com.google.api:gax:jar:1.20.0:compile
+[INFO] |  |  |  \- org.threeten:threetenbp:jar:1.3.3:compile
+[INFO] |  |  +- com.google.protobuf:protobuf-java-util:jar:3.5.1:compile
+[INFO] |  |  |  +- com.google.protobuf:protobuf-java:jar:3.5.1:compile
+[INFO] |  |  |  \- com.google.code.gson:gson:jar:2.7:compile
+[INFO] |  |  +- com.google.api.grpc:proto-google-common-protos:jar:1.4.0:compile
+[INFO] |  |  \- com.google.api.grpc:proto-google-iam-v1:jar:0.5.0:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-http:jar:1.22.0:compile
+[INFO] |  |  +- com.google.auth:google-auth-library-credentials:jar:0.9.0:compile
+[INFO] |  |  +- com.google.auth:google-auth-library-oauth2-http:jar:0.9.0:compile
+[INFO] |  |  +- com.google.oauth-client:google-oauth-client:jar:1.23.0:compile
+[INFO] |  |  +- com.google.api-client:google-api-client:jar:1.23.0:compile
+[INFO] |  |  +- com.google.http-client:google-http-client-appengine:jar:1.23.0:compile
+[INFO] |  |  +- com.google.http-client:google-http-client-jackson:jar:1.23.0:compile
+[INFO] |  |  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile
+[INFO] |  |  +- com.google.http-client:google-http-client-jackson2:jar:1.23.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.1.3:compile
+[INFO] |  |  +- com.google.api:gax-httpjson:jar:0.37.0:compile
+[INFO] |  |  +- io.opencensus:opencensus-api:jar:0.11.1:compile
+[INFO] |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+[INFO] |  |  |  \- io.grpc:grpc-context:jar:1.9.0:compile
+[INFO] |  |  \- io.opencensus:opencensus-contrib-http-util:jar:0.11.1:compile
+[INFO] |  +- com.google.auto.value:auto-value:jar:1.4:compile
+[INFO] |  \- com.google.apis:google-api-services-bigquery:jar:v2-rev377-1.23.0:compile
+[INFO] \- com.google.cloud:google-cloud-storage:jar:1.24.1:compile
+[INFO]    \- com.google.apis:google-api-services-storage:jar:v1-rev114-1.23.0:compile
+[INFO] ------------------------------------------------------------------------
